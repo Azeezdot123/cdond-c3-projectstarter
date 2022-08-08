@@ -37,7 +37,7 @@ jobs:
           key: backend-build
 
 workflows:
-  default:
+  default_workflow:
     jobs:
       - build-frontend
       - build-backend
